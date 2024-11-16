@@ -1,7 +1,5 @@
 mirdata
 mido
-git+https://github.com/craffel/mir_eval.git
-git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup.git
 matplotlib
 lightning>=2.2.1
 pytest-timeout
@@ -9,6 +7,9 @@ pytest
 deprecated
 librosa
 einops
-transformers
+transformers==4.45
 wandb
 smart-open
+git+https://github.com/craffel/mir_eval.git
+git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup.git
+torchaudio
